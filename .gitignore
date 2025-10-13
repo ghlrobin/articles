@@ -1,0 +1,21 @@
+# Obsidian-specific files to ignore
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/cache
+.obsidian/.cache
+.obsidian/plugins/*/data.json # Ignore plugin data that might contain sensitive or machine-specific info
+.obsidian/snippets/*
+.obsidian/themes/*
+.obsidian/app.json # If you want to keep app settings local
+.obsidian/graph.json
+.obsidian/starred.json
+
+# Operating system specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Temporary files and backups
+*.bak
+*.tmp
+*~
+trash/
