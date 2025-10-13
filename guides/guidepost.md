@@ -1,7 +1,8 @@
 ---
 title: "guide First post"
 date: 2023-08-14
-draft: false
+description:
+draft: true
 summary: "This is guide First post on my site"
 tags: []
 ---

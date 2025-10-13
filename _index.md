@@ -1,8 +1,9 @@
 ---
 title: "Hello World"
-description: "A collection of my academic notes and learnings on topics ranging from statistics to advanced time-series analysis."
+date: 2025-10-13
+description: "A Personal blog by Robin (Ganghyeok) Lee for anything and everything."
 showDate: false
-
+tags: [blogging]
 ---
 
-Welcome to my Knowledge Base. Here, I document and organize the key concepts I learn throughout my academic journey. Browse by subject to find detailed notes and summaries.
+Welcome to my blog. I write about what I am learning (quantum computing, finance, statistics etc), provide guides on things I am interested in and share my opinions on varied topics.

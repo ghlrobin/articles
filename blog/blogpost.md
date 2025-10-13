@@ -1,8 +1,8 @@
 ---
 title: "blog post"
 date: 2023-08-14
-draft: false
-summary: "This is blog First post on my site"
+description:
+draft: true
 tags: []
 ---
 

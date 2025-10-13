@@ -1,7 +1,7 @@
 ---
 title: "My fourth post"
 date: 2025-10-12
-draft: false
+draft: true
 summary: "This is my fourth post on my site"
 tags: []
 ---

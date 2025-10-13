@@ -1,7 +1,7 @@
 ---
 title: "My ts third post"
-date: 2023-08-16
-draft: false
+date: 2025-10-13
+draft: true
 summary: "This is my second post on my site"
 tags: []
 ---

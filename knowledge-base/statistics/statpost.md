@@ -1,7 +1,7 @@
 ---
 title: "My stat second post"
 date: 2023-08-15
-draft: false
+draft: true
 summary: "This is my second post on my site"
 tags: []
 ---

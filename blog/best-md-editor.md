@@ -1,9 +1,9 @@
 ---
-title: "Best Markdown Editor in 2025"
+title: Best Markdown Editor in 2025
 date: 2025-10-12
-draft: false
-summary: "This is blog First post on my site"
-tags: ["markdown", "editor", "writing-tools", "productivity", "blogging", "software"]
+description:
+draft: true
+tags: [blogging, markdown]
 ---
 
 ## Introduction
