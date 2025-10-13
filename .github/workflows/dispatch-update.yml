@@ -1,0 +1,16 @@
+name: Dispatch Update Submodule
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch update to main repo
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.PAT }}
+          repository: ghlrobin/blog
+          event-type: update-submodule
