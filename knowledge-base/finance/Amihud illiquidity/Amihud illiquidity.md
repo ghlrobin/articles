@@ -2,7 +2,7 @@
 title: Amihud illiquidity explained
 date: 2025-10-15
 description:
-draft: flase
+draft: false
 tags:
   - finance
   - liqudity
@@ -45,7 +45,7 @@ Considering the much larger market capitalization of US REITs compared to K-REIT
 
 ### 2.2. Methodology
 
-We calculate the daily $ILLIQ$ using Equation 2 for the entire data period of 2 years. We post-process the result by taking the logarithm and apply [exponential smoothing](https://en.wikipedia.org/wiki/Exponential_smoothing) so that we can better visualize the results. Rounding up, for each daily stock data:
+We calculate the daily $ILLIQ$ using Equation 2 for the entire data period of 2 years. We post-process the result by taking the logarithm and applying [exponential smoothing](https://en.wikipedia.org/wiki/Exponential_smoothing) so that we can better visualize the results. Rounding up, for each daily stock data:
 1. We multiply the the daily volume to the stock price to get the daily dollar volume, $VOLD_t$,
 2. We convert the stock price, $P_t$, into daily return, $R_t=P_t/P_{t-1}-1$,
 3. We calculate the daily log Amihud Illiquidity, $\ln{ILLIQ_t}=\ln{\frac{|{R_t}|}{VOLD_t}}$.

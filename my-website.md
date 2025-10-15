@@ -21,7 +21,8 @@ tags: []
 	- [[_index]]
 	- **finance**
 		- [[_index]]
-		- [[Amihud illiquidity]]
+		- **[[Amihud illiquidity]]**
+
 	- **quantum-computing**
 		- [[_index]]
 	- **statistics**
