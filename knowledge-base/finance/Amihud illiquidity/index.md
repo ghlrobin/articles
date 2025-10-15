@@ -27,7 +27,7 @@ $$
 {ILLIQ_t}=\frac{|{R_t}|}{VOLD_t}\approx\frac{0.0005}{VOLD_t}. \tag{3}
 $$
 
-## 2. Empirical Analysis
+## 2. Empirical analysis
 
 ### 2.1. Data
 

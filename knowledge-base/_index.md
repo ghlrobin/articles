@@ -1,5 +1,9 @@
 ---
-title: "Knowledge Base"
-description: "A collection of my academic notes and learnings on topics ranging from statistics to advanced time-series analysis."
+title: Knowledge Base
+description: A collection of my semi-formal academic notes on topics like quantum computing, machine learning, finance, statistics and time-series analysis.
 showDate: false
+tags:
+  - blogging
 ---
+
+A collection of my semi-formal academic notes on topics like quantum computing, machine learning, finance, statistics and time-series analysis.

@@ -1,11 +1,19 @@
 ---
-title: "Seamless Workflow - Obsidian and Hugo"
-date: "2025-10-13"
+title: "Seamless workflow - Obsidian, Github, Hugo, Cloudflare Pages"
+date: "2025-10-15"
 draft: true
-tags: [obsidian, hugo, blogging]
+tags: [obsidian, github, hugo, cloudflare-pages, blogging]
 ---
 
-I wanted a minimalistic setup that requires no repetitive workflow or alt-tab'ing between apps to write articles (or notes) and publish them to my blog. After a few hours of frantic Google searches and troubleshooting, I was able to succeed.
+## Start of the journey
+
+I will be honest. Once I made up my mind to start a blog, I was addicted to setting up the ultimate blogging setup. I had to make decisions on and learn about so many things. What tool should I use to blog? What website theme should I use? How should I publish my site?  How should I name my custom domain? On top of that, I had my wants. I wanted a minimalistic setup that requires no repetitive workflow or alt-tab'ing between apps to write articles and publish them to my blog. After a few days of frantic Google searching, forum scrounging, blogging workflow developing  and troubleshooting, I am finally done. All my requirements for my ultimate blogging setup are met.
+
+Before I go on to describe my setup and how I implemented it, I should let you know first 
+
+### SSG vs. CMS vs. Blogging Platform
+
+The first decision I had to make was how I was going to create the website.
 
 My current workflow from writing to publishing (all inside Obsidian):
 1. Write a markdown file in a specific git subfolder `my-website` in Obsidian Vault that I use for my blog. (Generate a template with Hugo-friendly front matter with the `Template` plugin)
