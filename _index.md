@@ -9,7 +9,7 @@ tags:
 
 I write about what I learned, provide guides on things I am interested in and share my opinions on variety of topics. Naturally, the website is separated into three main sections:
 
-1. [Knowledge base](https://robinglee.com/knowledge-base/e)
+1. [Knowledge base](https://robinglee.com/knowledge-base/)
 	- This is where I keep my semi-formal academic notes on topics like quantum computing, machine learning, finance, statistics and time-series analysis.
 	- If you are interested in these topics, you might find something useful there.
 2. [Guides](https://robinglee.com/guides/)

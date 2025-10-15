@@ -4,4 +4,4 @@ description: "A collection of my academic notes and learnings on topics ranging 
 tags: [blogging, blog]
 ---
 
-Welcome to my blog. Here, I am not sure yet what I am going to write here!
+Welcome to my blogging section. I will write about anything and everything. Hopefully, you will enjoy reading what you find here.
