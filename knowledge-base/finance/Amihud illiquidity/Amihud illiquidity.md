@@ -5,16 +5,16 @@ description:
 draft: false
 tags:
   - finance
-  - liqudity
+  - amihud-illiqudity
 ---
 
 ## 1. Introduction
 
-Amihud illiquidity measure (Amihud, [2002](https://www.sciencedirect.com/science/article/pii/S1386418101000246)) is the average ratio of daily absolute stock return to its dollar trading volume. Mathematically, the Amihud illiquidity of a stock for a given period is defined as:
+The Amihud illiquidity measure (Amihud, [2002](https://www.sciencedirect.com/science/article/pii/S1386418101000246)) is the average ratio of daily absolute stock return to its dollar trading volume. Mathematically, the Amihud illiquidity of a stock for a given period is defined as:
 $$
 {ILLIQ}=\frac{1}{N}\sum_{t=1}^{N}{\frac{|{R_t}|}{VOLD_t}}, \tag{1}
 $$
-where $R_t$ is the daily return at time $t$, $VOLD_t$ is the trading volume in USD at time $t$ and $N$ is the number of days in the given period. Note that it is a measure of *illiquidity* and not liquidity - a stock with high Amihud illiquidity has low liquidity. If you want to measure the daily Amihud illiquidity, you can simplify Equation 1 to get the ratio:
+where $R_t$ is the daily return at time $t$, $VOLD_t$ is the trading volume in USD at time $t$ and $N$ is the number of days in the given period. Note that it is a measure of *illiquidity* and not *liquidity* - a stock with high Amihud illiquidity has low liquidity. If you want to measure the daily Amihud illiquidity instead of the average Amihud illiquidity over a certain period, you can simplify Equation 1 to get the simple ratio:
 $$
 {ILLIQ_t}=\frac{|{R_t}|}{VOLD_t}. \tag{2}
 $$
