@@ -5,6 +5,7 @@ description:
 draft: flase
 tags:
   - finance
+  - liqudity
 ---
 
 ## 1. Introduction
@@ -32,13 +33,13 @@ $$
 
 As a sanity check that the measure works as intended, we conduct a simple empirical analysis. We use daily data on top 3 US REITs (real estate investment trust) and Korean REITs (K-REITs). The data (price and volume) was collected for a period of 2 years and the stock prices of K-REITs were converted to USD using daily KRW/USD exchange rate.
 
+<center>Table 1. Top 3 US REITs and K-REITs and their market capitalizations.</center>
 
 |Rank|US REITs|Market Cap|K-REITs|Market Cap|
 | --- | --- | --- | --- | --- | 
 |1|Welltower Inc.     |$113 billion|SK REIT|$962 million|
 |2|Prologis Inc.     |$107 billion|Lotte REIT     |$783 million|
 |3|American Tower Corp.     |$87 billion|ESR Kendall Square REIT      |$767 million|
-<center>Table 1. Top 3 US REITs and K-REITs and their market capitalizations.</center>
 
 Considering the much larger market capitalization of US REITs compared to K-REITs, we expect US REITs to be more liquid (and hence have lower Amihud illiquidity).
 
@@ -46,14 +47,14 @@ Considering the much larger market capitalization of US REITs compared to K-REIT
 
 We calculate the daily $ILLIQ$ using Equation 2 for the entire data period of 2 years. We post-process the result by taking the logarithm and apply [exponential smoothing](https://en.wikipedia.org/wiki/Exponential_smoothing) so that we can better visualize the results. Rounding up, for each daily stock data:
 1. We multiply the the daily volume to the stock price to get the daily dollar volume, $VOLD_t$,
-2. We convert the stock price, $P_t$, into daily return, $R_t=P_t/P_{t-1}-1$),
-3. We calculate the daily log Amihud Illiquidity, $\ln{ILLIQ_t}=\ln{\frac{|{R_t}|}{VOLD_t}}$.'
+2. We convert the stock price, $P_t$, into daily return, $R_t=P_t/P_{t-1}-1$,
+3. We calculate the daily log Amihud Illiquidity, $\ln{ILLIQ_t}=\ln{\frac{|{R_t}|}{VOLD_t}}$.
 
 ## 3. Results
 
 In Figure 1, we can see the large illiquidity gap between US and Korean REITs; all three K-REITs have much higher illiquidity. What is notable is that we can see an illiquidity spike in 2023 for K-REITs. The spike matches the time of major domestic credit crunch, triggered in late 2022 caused by the "Legoland crisis" where the developer for Legoland Korea theme park defaulted on 205 billion KRW (approx. $150 million) of commercial paper.
 
-![Results](Amihud Illiqudity of TOP US and Korean REITs.png)
+![Results](results.png)
 <center>Figure 1. Amihud Illiqudity of TOP US and Korean REITs.</center>
 
 ## 4. Other measures
