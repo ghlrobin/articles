@@ -37,14 +37,15 @@ tags: [keyword-1, keyword-2, keyword-3]
 ```
 
 Just remember two things:
-	1. Tags can't have spaces (so use underscores or hyphens instead if you want to separate out words (or use camelCase or PascalCase))
-	2. Tags can't be just numbers. So `#2025` will be no good.
 
-If you want to be fancy, you can also use `nested tags` to create tag hierarchies. This can be done by using forward slash (`/`) in a tag. For example, `#snacks/icecream` and `snacks/candies` are hierarchical tags with `#snack` as the parent and `#icecream` and `#candies` as children. Unless you have a very specific need, I wouldn't personally recommend nested tags too much; they over-complicate things. A simple, not-nested tags are more than good enough for most if not all occasions.
+1. Tags can't have spaces (so use underscores or hyphens instead if you want to separate out words (or use camelCase or PascalCase))
+2. Tags can't be just numbers. So `#2025` will be no good.
+
+If you want to be fancy, you can also use `nested tags` to create tag hierarchies. This can be done by using forward slash (`/`) in a tag. For example, `#snacks/icecream` and `#snacks/candies` are hierarchical tags with `#snack` as the parent and `#icecream` and `#candies` as children. Unless you have a very specific need, I wouldn't personally recommend nested tags too much; they over-complicate things. A simple, not-nested tags are more than good enough for most, if not all, occasions.
 
 ## 3. Links
 
-More precisely called [internal links](https://help.obsidian.md/links), they are a way to refer to other files in the Obsidian vault. While tags can only be part of  many-to-one uni-directional connections (notes being the many and a tag being the one that can only receive connections), links are naturally one-to-one bi-directional connections (between two notes).
+More precisely called [internal links](https://help.obsidian.md/links), links are a way to refer to other files in the Obsidian vault. While tags can only be part of  many-to-one uni-directional connections (notes being the many and a tag being the one that can only receive connections), links are naturally one-to-one bi-directional connections (between two notes).
 
 <center>
 <figure>
@@ -74,27 +75,27 @@ Although they serve the same purpose of linking ideas and notes. There are some 
 
 ### 4.1. Click behaviors are different
 
-If you click a tag, Obsidian opens a search for that tag on the left sidebar that shows all notes with the same tag.
+If you click a tag, Obsidian opens a search for that tag on the left sidebar that shows all the notes containing the same tag.
 
 If you click a link, Obsidian will open that linked note.
 
 ### 4.2. Links automatically updates, tags do not (out of the box)
 
-A big difference that might push one to use links is that Obsidian (by default) automatically update links when you rename a file. This is especially useful if you have a note that has many backlinks (files that has a link to the note). You don't have to painstakingly edit each note with links to the renamed note and manually change the link.
+A big difference that might push one to use links is that Obsidian (by default) automatically updates links when you rename a file. This is especially useful if you have a note that has many backlinks (files that has a link to the note). You don't have to painstakingly edit each note that has links to the renamed link.
 
 Tags, on the other hand, cannot be altered retroactively (at least in standalone Obsidian). If you tag a note, it will always have that tag unless you manually change it. So, for example, if you find a typo in your tag `#equiptment` after using that tag for 100 notes, you have to find the tag in each note and edit the tag. However, this is a non-problem if you install community plugins like [Tag Wrangler](https://github.com/pjeby/tag-wrangler) which let you bulk rename tags.
 
 
 ###  4.3. Links and tags are displayed separately in Graph View
 
-In Obsidian's Graph View, notes are nodes and links are lines (or vertices and edges, respectively, if you are using graph theory terminology). By default, tags are not displayed in the Graph View; you have to enable them in the filters. Tags appear as separate nodes, and lines connect notes which contain that tag to the tag node.
+In Obsidian's Graph View, notes are nodes and links are lines (or vertices and edges, respectively, if you are using graph theory terminology). By default, tags are not displayed in Graph View; you have to enable them in the filters. Tags appear as nodes, and lines connect notes containing the tags to the tag node.
 
-One small problem with using both tags and links is that you can get duplicate connections. I have a MOC (map of content) note where I have a list of all my research and so it links all my separate research notes. I also use the tag `#research` for each notes that can be categorized as research. So, now, I have two central nodes that serve nearly the same purpose linking to the same nodes. For some, this might not even be a problem, but for me, I find things like this sub-par and annoying.
+One small problem with using both tags and links is that you can get duplicate connections. I have a MOC (map of content) note where I have linked all my separate research notes. I also use the tag `#research` for every note that can be categorized as research. So, now, I have two central nodes, serving nearly the same purpose and connecting the same nodes. For some, this might not even be a problem, but for me, I find things like this sub-par and annoying.
 
 <center>
 <figure>
     <img src="graph-with-tags.png" width="300" height="300">
-    <figcaption>A Graph View with tags enabled. Notice how tags (in green) complicate the graph with repetitive connections.</figcaption>
+    <figcaption>A Graph View with tags enabled. Notice how tags (in green) complicate the graph with repetitive connections. This is especially noticeable on the two central nodes (one gray, the other green) just below the center of the image. </figcaption>
 </figure>
 </center>
 
@@ -108,9 +109,9 @@ However, this solution does not work for me because I write my blog articles in 
 
 ### 5.2. Option 2
 
-The second option, you guessed it, is to use tags only. But how do you create a link-like tag when tags by definition cannot be a one-to-one connection between two notes? Also the click behavior of tags is to display a list of the notes with that tag on the sidebar; how would you open a note by clicking a tag?
+The second option, you guessed it, is to use tags only. But how do you create a link-like tag when tags by definition cannot be a one-to-one connection between two notes? Also, the click behavior of tags is to display a list of the notes with that tag on the sidebar; how would you open a note by clicking a tag?
 
-The solution is somewhat complicated. For each note, we create a tag which is used as an alias for that specific note only. In other words, you have a tag for each note. To apply this solution, you have to first install the community plugin, [Tag Wrangler](https://github.com/pjeby/tag-wrangler). We will be using a feature of the plugin called [Tag Pages](https://github.com/pjeby/tag-wrangler#tag-pages) which converts the click behavior of tags to opening the note (page) that has that tag as an [alias](https://help.obsidian.md/aliases). Thus, we now have tags that function like links. Is this all confusing? It should be, because it is. It's a fair bit janky as well, so I don't recommend it.
+The solution is somewhat complicated. For each note, we create a tag which is going to be used as an alias for that specific note only. In other words, you have a tag for each note. To apply this solution, you have to first install the community plugin, [Tag Wrangler](https://github.com/pjeby/tag-wrangler). We will be using a feature of the plugin called [Tag Pages](https://github.com/pjeby/tag-wrangler#tag-pages) which converts the click behavior of tags to opening the note (page) that has that tag as an [alias](https://help.obsidian.md/aliases). Thus, we now have tags that function like links. Is this all confusing? It should be, because it is. It's a fair bit janky as well, so I don't recommend it.
 
 The first question I had after applying this method was what would happen if, by accident, there are two or more Tag Pages with the same alias. I tested this out by creating two pages with the same alias.
 ```yaml
@@ -119,22 +120,22 @@ Alias: #some-tag"
 ---
 ```
 
-And I created a new note with the tag `#some-tag`. When I clicked the tag, it always directed me to the first page I created with the alias - the second page is unreachable.
+And I created a new note and typed `#some-tag`. When I clicked this tag multiple times, it always directed me to the first page I created with the alias - the second page is unreachable.
 
 This is not the only problem. With this setup, we now have two types of tags:
 
-1. Tags that are indeed tags,
+1. Tags that are actual tags,
 2. Tags that act like link to pages.
 
-And you wouldn't know which of the two it is just by looking at it. This is far from ideal.
+And you wouldn't know which of the two a tag is just by looking at it. This is far from ideal.
 
 ### 5.3. Option 3
 
-The best option, personally, is simply to use both. Though they overlap in functionality, the overlap is not complete so if you choose to use only one, you will be missing out on some features that are only available on one. For example, if you use tags, you can make use of searching by tags and "tag view", available in the right sidebar, which keeps a tally on the number of pages with each tag.
+The best option, personally, is to simply use both. Though they overlap in functionality, the overlap is not complete. So, if you choose to use only one, you will be missing out on some features that are only available on the other. For example, if you choose only to use links, you will be missing out on features like `search by tags`, available in the left sidebar, and `tag view`, available in the right sidebar that keeps a tally on the number of pages with each tag.
 
 ## 6. Summary
 
-There is no wrong way to use tags and link; after a while, you will find a system that best suits one's needs. It is important, at least for myself, to remember that in the end, Obsidian is just a tool - I shouldn't spend too much time struggling to find the perfect setup. Do what Obsidian is meant to do.
+There is no wrong way to use tags and link; after a while, you will find a system that best suits your needs. It is important, at least for myself, to remember that in the end, Obsidian is just a tool. I shouldn't spend too much time struggling to find the perfect setup but do what Obsidian is meant to do.
 
 Keep on writing and enjoy the process of creating your personal digital library of knowledge.
 
