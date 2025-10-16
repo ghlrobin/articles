@@ -125,7 +125,7 @@ And I created a new note and typed `#some-tag`. When I clicked this tag multiple
 This is not the only problem. With this setup, we now have two types of tags:
 
 1. Tags that are actual tags,
-2. Tags that act like link to pages.
+2. Tags that act like links to pages.
 
 And you wouldn't know which of the two a tag is just by looking at it. This is far from ideal.
 
@@ -135,7 +135,7 @@ The best option, personally, is to simply use both. Though they overlap in funct
 
 ## 6. Summary
 
-There is no wrong way to use tags and link; after a while, you will find a system that best suits your needs. It is important, at least for myself, to remember that in the end, Obsidian is just a tool. I shouldn't spend too much time struggling to find the perfect setup but do what Obsidian is meant to do.
+There is no wrong way to use tags and links; after a while, you will find a system that best suits your needs. It is important, at least for myself, to remember that in the end, Obsidian is just a tool. I shouldn't spend too much time struggling to find the perfect setup but do what Obsidian is meant to do.
 
 Keep on writing and enjoy the process of creating your personal digital library of knowledge.
 
