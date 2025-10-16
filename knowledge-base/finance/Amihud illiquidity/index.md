@@ -52,7 +52,7 @@ We calculate the daily $ILLIQ$ using Equation 2 for the entire data period of 2 
 
 ## 3. Results
 
-In Figure 1, we can see the large illiquidity gap between US and Korean REITs; all three K-REITs have much higher illiquidity. What is notable is that we can see an illiquidity spike in 2023 for K-REITs. The spike matches the time of major domestic credit crunch, triggered in late 2022 caused by the "Legoland crisis" where the developer for Legoland Korea theme park defaulted on 205 billion KRW (approx. $150 million) of commercial paper.
+In Figure 1, we can see the large illiquidity gap between US and Korean REITs; all three K-REITs have much higher illiquidity. It is also interesting to see an illiquidity spike in 2023 for K-REITs. The spike matches the time of major domestic credit crunch, triggered in late 2022 by the "Legoland crisis" where the developer for Legoland Korea theme park defaulted on 205 billion KRW (approx. $150 million) of commercial paper.
 
 ![Results](results.png)
 <center>Figure 1. Amihud Illiqudity of TOP US and Korean REITs.</center>

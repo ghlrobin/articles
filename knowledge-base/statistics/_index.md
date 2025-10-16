@@ -1,5 +1,5 @@
 ---
 title: "Statistics"
 description: ""
-tags: [statistics]
+tags: []
 ---

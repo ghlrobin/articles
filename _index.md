@@ -1,10 +1,9 @@
 ---
-title: Welcome to my website 🎉
+title: Glad you're here! Take a look around. 
 date: 2025-10-13
 description: A Personal blog by Robin (Ganghyeok) Lee for anything and everything.
 showDate: false
-tags:
-  - blogging
+tags: []
 ---
 
 I write about what I learned, provide guides on things I am interested in and share my opinions on variety of topics. Naturally, the website is separated into three main sections:

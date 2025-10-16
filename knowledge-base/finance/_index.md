@@ -1,5 +1,5 @@
 ---
 title: "Finance"
 description: ""
-tags: [finance]
+tags: []
 ---
