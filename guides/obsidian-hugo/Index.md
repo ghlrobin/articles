@@ -1,8 +1,13 @@
 ---
-title: "Seamless workflow - Obsidian, Github, Hugo, Cloudflare Pages"
-date: "2025-10-15"
+title: Seamless workflow - Obsidian, Github, Hugo, Cloudflare Pages
+date: 2025-10-15
 draft: true
-tags: [obsidian, github, hugo, cloudflare-pages, blogging]
+tags:
+  - obsidian
+  - github
+  - hugo
+  - cloudflare-pages
+  - blogging
 ---
 
 ## Start of the journey

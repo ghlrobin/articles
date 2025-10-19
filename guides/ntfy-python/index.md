@@ -4,7 +4,8 @@ date: 2025-10-17
 datemod:
 description:
 draft: true
-tags: []
+tags:
+  - python
 ---
 ## Notes
 
