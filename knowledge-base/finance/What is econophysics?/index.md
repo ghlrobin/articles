@@ -4,7 +4,7 @@ date: 2025-10-22
 datemod:
 description:
 draft: false
-tags: [econophysics, qho, lppl]
+tags: [econophysics, QHO, LPPL]
 ---
 In the field of econophysics, we apply physics to economics.
 
