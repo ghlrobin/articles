@@ -3,7 +3,7 @@ title: "Quantum Harmonic oscillator: A better method for estimating stock return
 date: 2025-10-22
 datemod:
 description:
-draft: true
+draft: false
 tags: [econophysics, quantum-finance, QHO]
 ---
 
