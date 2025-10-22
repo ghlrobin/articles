@@ -21,3 +21,11 @@ Thumbs.db # Windows
 trash/
 /.DS_Store
 my-website.md
+
+/guides/guides.md
+/blog/blog.md
+/knowledge-base/knowledge-base.md
+/knowledge-base/finance/finance.md
+/knowledge-base/quantum-computing/quantum-computing.md
+/knowledge-base/statistics/statistics.md
+/knowledge-base/time-series/time-series.md
