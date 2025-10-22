@@ -56,7 +56,7 @@ Table 1. A comparison between QHO and classical harmonic oscillator
 
 Because it works!
 
-We use it because, with the right assumptions, we can apply the QHO model to estimate the distribution of the stock returns much better than traditional methods like the Black-Scholes model which assumes that financial returns are normally distributed. However, real-world returns are far form normal and exhibit skewness and fat tails (excess kurtosis). This means that with the Black-Scholes model, among many things, we will be under-evaluating risks.
+We use it because, with the right assumptions, we can apply the QHO model to estimate the distribution of the stock returns much better than traditional methods like the Black-Scholes model which assumes that financial returns are normally distributed. However, real-world returns are far form normal and exhibit skewness and fat tails (excess kurtosis). This means that with the Black-Scholes model, among many things,  will under-evaluate risks.
 
 On the other hand, the QHO model is able to incorporates these real-world characteristics of financial returns.
 
