@@ -1,13 +1,12 @@
 ---
-title: About me
+title: Ganghyeok Lee
 date: 2025-10-17
-datemod:
+hide_date: true
+hide_related: true
 description:
 draft: false
 tags: []
 ---
-
-# Ganghyeok Lee
 
 **PhD Candidate**  
 Yonsei University  
@@ -16,14 +15,14 @@ Yonsei University
 
 **Email:** ganghyeok(at)yonsei(dot)ac(dot)kr  
 
-[CV](https://drive.google.com/file/d/1tPZepy4Dwc2GkRcoj03UlMuynqVSRb2k/view?usp=drive_link) · [LinkedIn](https://www.linkedin.com/in/ghlrobin/) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=o3dsm4gAAAAJ) · [ORCID](https://orcid.org/0009-0007-3430-9910)
+[CV](https://drive.google.com/file/d/1tPZepy4Dwc2GkRcoj03UlMuynqVSRb2k/view?usp=drive_link) · [LinkedIn](https://www.linkedin.com/in/robinghlee/) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=o3dsm4gAAAAJ) · [ORCID](https://orcid.org/0009-0007-3430-9910)
 
 ---
 
 ## Education
 
 **Yonsei University**  
-PhD in Industrial Engineering, 2023–2026 (expected)
+MA/PhD in Industrial Engineering, 2023–2026 (expected)
 
 **University of Oxford**  
 BA in Mathematics, 2016–2020
@@ -32,12 +31,18 @@ BA in Mathematics, 2016–2020
 
 ## Short-term Training
 
-- ICONS Interdisciplinary Research Academy, Institute of Convergence Science, Yonsei University, 2025  
-- Advanced Deep Learning with Python, Institute of Data Science, Yonsei University, 2025  
-- Quantum Machine Learning using Python, Institute of Data Science, Yonsei University, 20 25  
-- Utilizing large-scale machine learning models, Institute of Data Science, Yonsei University, 2025  
-- IBM Quantum Computing: Qiskit Global Summer School, IBM, 2024  
-- Boostcamp AI Tech (NLP Track), NAVER Connect Foundation, 2022  
+- ICONS Interdisciplinary Research Academy, Institute of Convergence Science
+	- Yonsei University, 2025  
+- Advanced Deep Learning with Python
+	- Institute of Data Science, Yonsei University, 2025  
+- Quantum Machine Learning using Python
+	- Institute of Data Science, Yonsei University, 2025  
+- Utilizing large-scale machine learning models
+	- Institute of Data Science, Yonsei University, 2025  
+- IBM Quantum Computing: Qiskit Global Summer School,
+	- IBM, 2024  
+- Boostcamp AI Tech (NLP Track)
+	- NAVER Connect Foundation, 2022  
 
 ---
 
