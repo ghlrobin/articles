@@ -15,7 +15,7 @@ tags: []
 **PhD Candidate**  
 Yonsei University  
 
-**Research Interests:** AI in Finance, Econophysic s, Energy Economics  
+**Research Interests:** AI in Finance, Econophysics, Energy Economics  
 
 **Email:** ganghyeok(at)yonsei(dot)ac(dot)kr  
 
