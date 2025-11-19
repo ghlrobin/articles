@@ -6,6 +6,7 @@ showDate: false
 showPagination: false
 showReadingTime: false
 showWordCount: false
+showRelatedContent: false
 description:
 draft: false
 tags: []
