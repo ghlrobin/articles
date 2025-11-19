@@ -7,7 +7,7 @@ draft: false
 tags: [econophysics, quantum-finance, QHO]
 ---
 
-## What is a quantum harmonic oscillator?
+## What is a classical harmonic oscillator?
 
 Before we talk quantum, we start with the simpler, classical variant. A *classical* harmonic oscillator is any system that experiences a restoring force proportional to displacement. The simplest example is a ball on a spring. When the ball is displaced from its equilibrium position, the spring pulls it back, and it oscillates. The force is given by Hooke's Law:
 
@@ -15,17 +15,19 @@ $$
 F=-kx,
 $$
 
-where $F$ is the restoring force, $k$ is the sprint constant, and $x$ is the displacement from equilibrium. This equation leads to the difference equation:
+where $F$ is the restoring force, $k$ is the sprint constant, and $x$ is the displacement from equilibrium. Newton's second law of motion leads to the difference equation:
 
 $$
-m\ddot{x}+k\dot{x}=0,
+m\ddot{x}+kx=0,
 $$
 
 whose solution is deterministic and periodic:
 $$
-x(t)=Acos(\omega t + \phi),
+x(t)=Acos(\omega t - \phi),
 $$
 where $A$ and $\phi$ are determined by initial conditions.
+
+## What is a quantum harmonic oscillator?
 
 The quantum harmonic oscillator (QHO) is the quantum-mechanical version of the classical harmonic oscillator. Among other things, it is a good approximation for small vibrations of atoms and molecules. It is also notable that QHO is one of the few systems in quantum mechanics with an exact, closed-form solution.
 
@@ -47,10 +49,10 @@ Table 1. A comparison between QHO and classical harmonic oscillator
 |Feature|Classical Harmonic Oscillator|Quantum Harmonic Oscillator|
 |---|---|---|
 |**Energy**|Continuous (any value possible)|Discrete (quantized energy levels: $( E_n = (n + \tfrac{1}{2})\hbar\omega ))$|
-|**Ground State Energy**|Zero (can be at rest)|Non-zero: ($\tfrac{1}{2}\hbar\omega )$ — **zero-point energy**|
-|**Position and Momentum**|Can be known exactly at any moment|Governed by the **Heisenberg Uncertainty Principle** — can’t know both exactly|
-|**Motion**|Oscillates smoothly and deterministically|Described by a **probability wave** (wavefunction) — doesn't have a definite position|
-|**Allowed States**|Infinite, smooth transitions|Only certain **quantum states** ( $n = 0, 1, 2, \dots )$, each with a distinct wavefunction|
+|**Ground State Energy**|Zero (can be at rest)|Non-zero: ($\tfrac{1}{2}\hbar\omega )$ — zero-point energy|
+|**Position and Momentum**|Can be known exactly at any moment|Governed by the Heisenberg Uncertainty Principle — can’t know both exactly|
+|**Motion**|Oscillates smoothly and deterministically|Described by a probability wave (wavefunction) — doesn't have a definite position|
+|**Allowed States**|Infinite, smooth transitions|Only certain quantum states ( $n = 0, 1, 2, \dots )$, each with a distinct wavefunction|
 
 ## Why do we need the QHO in finance?
 
