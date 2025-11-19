@@ -35,18 +35,21 @@ BA in Mathematics, 2016–2020
 
 ## Short-term Training
 
-- ICONS Interdisciplinary Research Academy, Institute of Convergence Science
-	- Yonsei University, 2025  
-- Advanced Deep Learning with Python
-	- Institute of Data Science, Yonsei University, 2025  
-- Quantum Machine Learning using Python
-	- Institute of Data Science, Yonsei University, 2025  
-- Utilizing large-scale machine learning models
-	- Institute of Data Science, Yonsei University, 2025  
-- IBM Quantum Computing: Qiskit Global Summer School,
-	- IBM, 2024  
-- Boostcamp AI Tech (NLP Track)
-	- NAVER Connect Foundation, 2022  
+- 2025
+	- ICONS Interdisciplinary Research Academy
+		- Institute of Convergence Science, Yonsei University  
+	- Advanced Deep Learning with Python
+		- Institute of Data Science, Yonsei University
+	- Quantum Machine Learning using Python
+		- Institute of Data Science, Yonsei University
+	- Utilizing large-scale machine learning models
+		- Institute of Data Science, Yonsei University  
+- 2024
+	- Quantum Computing: Qiskit Global Summer School
+		- IBM
+- 2022
+	- Boostcamp AI Tech (NLP Track)
+		- NAVER Connect Foundation
 
 ---
 
