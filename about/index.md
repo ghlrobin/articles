@@ -1,5 +1,5 @@
 ---
-title: Ganghyeok Lee
+title: Robin Ganghyeok Lee
 date: 2025-10-17
 showAuthor: false
 showDate: false
