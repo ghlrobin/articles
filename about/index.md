@@ -1,8 +1,11 @@
 ---
 title: Ganghyeok Lee
 date: 2025-10-17
-hide_date: true
-hide_related: true
+showAuthor: false
+showDate: false
+showPagination: false
+showReadingTime: false
+showWordCount: false
 description:
 draft: false
 tags: []
