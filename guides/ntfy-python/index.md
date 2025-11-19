@@ -1,5 +1,5 @@
 ---
-title: "ntfy.sh: Python push notification"
+title: "ntfy.sh: Quick and easy Python push notification"
 date: 2025-10-17
 datemod:
 description:

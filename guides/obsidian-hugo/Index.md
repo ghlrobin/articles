@@ -10,32 +10,32 @@ tags:
   - blogging
 ---
 
-## Start of the journey
+## My current setup
+This site is written, edited and published in [Obsidian](https://stephango.com/obsidian). Finished articles are pushed to a [GitHub](https://github.com/) repository and automatically compiled into web pages using [Hugo](https://gohugo.io/) (with [Blowfish theme](https://blowfish.page/)) and hosted with [Cloudflare Pages](https://pages.cloudflare.com/).
 
-I will be honest. Once I made up my mind to start a blog, I was addicted to setting up the ultimate blogging setup. I had to make decisions on and learn about so many things. What tool should I use to blog? What website theme should I use? How should I publish my site?  How should I name my custom domain? On top of that, I had my wants. I wanted a minimalistic setup that requires no repetitive workflow or alt-tab'ing between apps to write articles and publish them to my blog. After a few days of frantic Google searching, forum scrounging, blogging workflow developing  and troubleshooting, I am finally done. All my requirements for my ultimate blogging setup are met.
-
-Before I go on to describe my setup and how I implemented it, I should let you know first 
-
-### SSG vs. CMS vs. Blogging Platform
-
-The first decision I had to make was how I was going to create the website.
+I only pay for the domain registration which costs me \$10.45/year from [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/).
 
 My current workflow from writing to publishing (all inside Obsidian):
-1. Write a markdown file in a specific git subfolder `my-website` in Obsidian Vault that I use for my blog. (Generate a template with Hugo-friendly front matter with the `Template` plugin)
-2. When I am done writing, use the `Git` community plugin to commit and push changes to my public GitHub repo with all my articles.
 
-For those who are not aware:
-1. Obsidian (markdown note-taking tool)
-	- People like this note-taking app for some reason
-2. Hugo (static site generator)
-	- After choosing a theme and initial setup all you need to do is write markdown files.
+1. I write my article in a Markdown file located in a git folder `my-website` in Obsidian Vault.
+2. When I am done writing, I use the `Git` community plugin to commit and push changes to my public GitHub repo with all my articles.
+3. And that's it!
+
+## Start of the journey
+I will be honest. Once I made up my mind to start a blog, I was addicted to setting up the ultimate blogging setup. I had to make decisions on and learn about so many things. What app should I use to write? What website theme should I use? How should I publish my site?  How should I name my domain? On top of that, I had my wants. I wanted a minimalistic setup that requires no repetitive workflow or alt-tab'ing between apps to write articles and publish them. After a few days of frantic Google searching, forum scrounging, developing  and troubleshooting, I am finally done. All my requirements are met.
+
+### SSG vs. CMS vs. Blogging Platform
+The first decision I had to make was how I was going to create the website.
+
+
 
 My requirements (and solution):
 - 
 - I did not want to maintain multiple Obsidian vaults. I wanted a one universal vault both for my personal notes that I don't share online and notes that will be published to my blog
 	- Solution: Have the git folder that I use to share in as a folder inside the vault.
 
-## References
+## External Resources
+- https://stephango.com/vault#publishing-to-the-web
 - https://4rkal.com/posts/obsidianhugo
 - https://www.nickgracilla.com/posts/obsidian-is-my-hugo-cms/
 - https://oscarmlage.com/posts/hugo-and-obsidian/
